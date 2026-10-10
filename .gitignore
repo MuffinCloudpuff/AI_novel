@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.egg-info/
+.env
+.env.*
+!.env.example
+projects/
+*.sqlite*
+.runtime/
+/inkos-research/
+/*.txt
+!/requirements*.txt
+/exports/
+*.py[cod]
+/build/
+/dist/
+/.pytest_cache/

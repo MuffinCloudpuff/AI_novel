@@ -1,0 +1,77 @@
+{
+  "repository": "https://github.com/Narcooo/inkos",
+  "commit": "8fc2ae57080b9821257dee3e37cc677e2b6f389a",
+  "license": "AGPL-3.0",
+  "files": [
+    {
+      "source": "LICENSE",
+      "local": "LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "source": "packages/core/skills/inkos-story-import/SKILL.md",
+      "local": "story-import.md",
+      "sha256": "275cb13586a3aa8db6468db53a120419ab3eae51f779aa69d007baa71a7691a4"
+    },
+    {
+      "source": "packages/core/skills/inkos-story-import/references/reconstruction-rubric.md",
+      "local": "reconstruction-rubric.md",
+      "sha256": "394699fc970e63af6b5c0808ababc75dc4dfad275bbdcd82f336b7eb1904c912"
+    },
+    {
+      "source": "packages/core/src/utils/chapter-splitter.ts",
+      "local": "chapter-splitter.ts",
+      "sha256": "80cf800e04ca8afcb2a35cb9af701ff922d1fd41d09b6a831b42654b4ab4e90f"
+    },
+    {
+      "source": "packages/core/src/agents/import-context.ts",
+      "local": "import-context.ts",
+      "sha256": "7a35354bad755ff70f86fea81c4573dfbab33dc76219091c4c25d841f24cd95d"
+    },
+    {
+      "source": "packages/core/src/utils/context-assembly.ts",
+      "local": "context-assembly.ts",
+      "sha256": "aad7ba888b096bac6083ead3926e1b8b146b2788ec0ae8dcee3950e8bd9247ba"
+    },
+    {
+      "source": "packages/core/src/__tests__/context-compaction.flow.test.ts",
+      "local": "context-compaction.flow.test.ts",
+      "sha256": "cbd2c281d406909cf577a6bdace389c8f1103a7669f3418a3f83450345f78677"
+    },
+    {
+      "source": "packages/core/src/harness/context-compiler.ts",
+      "local": "context-compiler.ts",
+      "sha256": "2dc389074c6ab15df7e098c729f9d85370f382a4e20a0d9ffd3f9432aeb3211b"
+    },
+    {
+      "source": "packages/core/src/models/context-compression.ts",
+      "local": "context-compression.ts",
+      "sha256": "c1874ace2184855f6b2148d95346631adbefd241df385ce9135c276eca9a8954"
+    },
+    {
+      "source": "packages/core/src/utils/governed-context.ts",
+      "local": "governed-context.ts",
+      "sha256": "2f618f6665520d2e0c3c26e84761d8081b27eaf68a77a9dbea1f8a8f6493181f"
+    },
+    {
+      "source": "packages/core/src/utils/governed-working-set.ts",
+      "local": "governed-working-set.ts",
+      "sha256": "2243c1f8b174fd07059c57563712c59577bca8096b3c981552e2a13e63cfe2bf"
+    },
+    {
+      "source": "packages/core/src/llm/long-form-completion.ts",
+      "local": "long-form-completion.ts",
+      "sha256": "1117b5f8624c6e202db979f06a70d910673b190a790f1f6e64287f3b55667c4e"
+    },
+    {
+      "source": "packages/core/src/agents/semantic-context-compiler.ts",
+      "local": "semantic-context-compiler.ts",
+      "sha256": "f0795155fcb7a158b450c1765bb6cf13209ff64e5045127bc33f39f439f7b396"
+    },
+    {
+      "source": "packages/core/src/llm/semantic-input.ts",
+      "local": "semantic-input.ts",
+      "sha256": "e7699968aa3167ac2477b95de6023186b4538728f6ab4b1bd1443f6fc5a81840"
+    }
+  ]
+}

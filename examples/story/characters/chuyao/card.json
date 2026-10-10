@@ -1,0 +1,11 @@
+{
+  "id": "chuyao",
+  "name": "楚瑶",
+  "personality": "谨慎、倔强，害怕被认为软弱，不愿求助。",
+  "voice": "平淡的解释，偶尔用反问掩饰不安。",
+  "current_goal": "掩饰病情，保住组织内的职位。",
+  "known_secrets": [
+    "昨夜中毒导致手抖，前往城东是为了寻找解药。"
+  ],
+  "initial_memories": []
+}

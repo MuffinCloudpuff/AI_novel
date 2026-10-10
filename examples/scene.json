@@ -1,0 +1,14 @@
+{
+  "id": "chapter01_scene01",
+  "pov_character_id": "linmo",
+  "setting": "傍晚，两人在酒馆靠窗的桌边相对而坐。",
+  "goal": "建立林墨对楚瑶的怀疑，楚瑶含糊回应，不向读者揭露手抖的真实原因。",
+  "present_characters": ["linmo", "chuyao"],
+  "events": [
+    {"id": "ch01_hidden01", "text": "昨夜楚瑶中毒，独自去城东寻找解药。", "visible_to": ["chuyao"]},
+    {"id": "ch01_seen01", "text": "林墨在靠窗的桌边坐下。楚瑶面前的酒还没有动。", "visible_to": ["linmo", "chuyao"]},
+    {"id": "ch01_seen02", "text": "楚瑶端起杯子，手指微微发抖。", "visible_to": ["linmo", "chuyao"]},
+    {"id": "ch01_seen03", "text": "林墨问：“听说你昨天去城东了？”", "visible_to": ["linmo", "chuyao"]}
+  ],
+  "intentional_choices": ["林墨可以误认为楚瑶在心虚，这个误解不是剧情错误。", "楚瑶的病情保存在后台，此场景不揭露。"]
+}

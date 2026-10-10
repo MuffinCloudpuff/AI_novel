@@ -1,0 +1,7 @@
+{
+  "schema_version": 2,
+  "genre": "悬疑",
+  "absent_after": 10,
+  "skills": {"mystery": true},
+  "dismissals": {}
+}

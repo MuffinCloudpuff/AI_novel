@@ -1,0 +1,18 @@
+{
+  "id": "linmo",
+  "name": "林墨",
+  "personality": "隐忍、多疑，习惯观察细节，很少直接指责别人。",
+  "voice": "短句，试探，不轻易说破。",
+  "current_goal": "弄清楚瑶为何去了城东。",
+  "known_secrets": [],
+  "initial_memories": [
+    {
+      "text": "组织最近出现消息泄露，自己怀疑身边有人隐瞒事情",
+      "kind": "belief",
+      "evidence_ids": [
+        "profile"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

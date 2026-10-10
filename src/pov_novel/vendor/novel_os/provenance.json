@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/mrigankad/Novel-OS",
+  "commit": "1bd4b5725a8225462873571eb9f9d26f5496ae83",
+  "license": "MIT",
+  "files": [
+    {
+      "source": "agents/editor/prompt.md",
+      "local": "editor.md",
+      "sha256": "3ab0241ae62aca97695b2d3a54330c93cffd4b0028dc3dd51753d70da3ae551c"
+    },
+    {
+      "source": "agents/style_curator/prompt.md",
+      "local": "style_curator.md",
+      "sha256": "b5b159f3478338a15a9c614def7a1f688cb378d14b3a6a5150f49d70e23a68cf"
+    },
+    {
+      "source": "agents/continuity_guardian/prompt.md",
+      "local": "continuity_guardian.md",
+      "sha256": "c90b5bc567f3f955d21d7182fe157743d26a508dd915eaa5f7e9899a6f149d30"
+    },
+    {
+      "source": "LICENSE",
+      "local": "LICENSE",
+      "sha256": "36927b0dbf608d01f4898d7e2a4facb4b94daf5343a509fb6ec39b1a70a11256"
+    }
+  ]
+}

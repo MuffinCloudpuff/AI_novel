@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pov-novel-agent"
+version = "0.2.0"
+description = "File-backed POV fiction workflow with LangGraph and Novel-OS review prompts"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = ["langgraph>=1,<2", "langgraph-checkpoint-sqlite>=3,<4", "pydantic>=2,<3", "PyYAML>=6,<7"]
+
+[project.scripts]
+pov-novel = "pov_novel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pov_novel = ["prompts/*.md", "vendor/novel_os/*.md", "vendor/novel_os/*.json", "vendor/novel_os/LICENSE", "vendor/inkos/*"]
